@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+img {
+  width: 130px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+body{
+  background-color: #f1ececd2 ;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: medium;
+  line-height: medium;
+}
+
+h1{
+  color: #537e4a;
+  font-family: 'Raleway', sans-serif;
+  font-size: larger;
+
+}
+
+h2{
+ font-family: 'Raleway', sans-serif;
+ color: rgba(51, 126, 91, 0.747);
+}
+
+p{
+  font-family: 'Varela Round', sans-serif;
+  color: rgba(19, 18, 18, 0.801);
+  font-size: smaller;
+}
+
+.btn-discover{
+  color: #9288b5ba;
+  text-decoration: none;
+}
+
+.container {
+  width: auto;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+
+}
+
+.card{
+  width: auto;
+  text-align: center;
+  padding: 25px 50px;
+  margin: 5px 90px ;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  background-color: #ffffff; ;
+}
+
+.list-inline{
+  text-align: center;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 10px;
+  list-style: none;
+  font-size: bold;
+  color: #4264b3b0;
+  font-size: xx-large;
+}
+.btn-discover{
+  color: #4264b3b0;
+  padding: 12px 17px;
+  border-radius: 4px;
+  margin: 0 auto;
+}
+
+.white-card{
+  background-color: #ffffff;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* .logo-media{
+  list-style: none;
+  color: #8d8d8f;
+  font-size: xx-large;
+} */
+
+a:hover{
+  color: rgba(126, 196, 163, 0.856);
+  background-color: #dcddec;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 720px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 650px;
+  }
+}
+@media (max-width: 650px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
